@@ -5,6 +5,7 @@
 local AC = "astrocommunity."
 local P = AC .. "pack."
 local E = AC .. "editing-support."
+local R = AC .. "recipes."
 
 ---@type LazySpec
 local spec = {
@@ -12,6 +13,7 @@ local spec = {
   "AstroNvim/astrocommunity",
   { import = AC .. "docker.lazydocker" },
   { import = AC .. "recipes.vscode" },
+  { import = AC .. "motion.nvim-surround" },
 
   { import = P .. "rainbow-delimiter-indent-blankline" },
 
@@ -25,6 +27,9 @@ local spec = {
   { import = E .. "suda-vim" },
   { import = E .. "todo-comments-nvim" },
   { import = E .. "undotree" },
+
+  { import = R .. "astrolsp-no-insert-inlay-hints" },
+  { import = R .. "heirline-vscode-winbar" },
 }
 
 -- Languages
