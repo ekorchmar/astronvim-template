@@ -11,6 +11,10 @@ local R = AC .. "recipes."
 local spec = {
 
   "AstroNvim/astrocommunity",
+
+  { import = AC .. "bars-and-lines.lualine-nvim" },
+  { import = AC .. "colorscheme.tokyonight-nvim" },
+  { import = AC .. "colorscheme.rose-pine" },
   { import = AC .. "docker.lazydocker" },
   { import = AC .. "recipes.vscode" },
   { import = AC .. "motion.nvim-surround" },
