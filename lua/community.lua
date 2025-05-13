@@ -32,6 +32,7 @@ local spec = {
   { import = E .. "todo-comments-nvim" },
   { import = E .. "undotree" },
 
+  { import = R .. "cache-colorscheme" },
   { import = R .. "astrolsp-no-insert-inlay-hints" },
   { import = R .. "heirline-vscode-winbar" },
 }
