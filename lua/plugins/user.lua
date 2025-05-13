@@ -209,4 +209,17 @@ return {
     "mawkler/modicator.nvim",
     opts = {},
   },
+
+  -- Prebuilt download link not always working
+  {
+    'saghen/blink.cmp',
+    build = "cargo build --release",
+    opts = {
+      fuzzy = {
+        prebuilt_binaries = {
+          download = false,
+        },
+      }
+    },
+  }
 }
