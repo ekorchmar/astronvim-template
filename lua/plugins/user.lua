@@ -212,14 +212,14 @@ return {
 
   -- Prebuilt download link not always working
   {
-    'saghen/blink.cmp',
+    "saghen/blink.cmp",
     build = "cargo build --release",
     opts = {
       fuzzy = {
         prebuilt_binaries = {
           download = false,
         },
-      }
+      },
     },
-  }
+  },
 }
